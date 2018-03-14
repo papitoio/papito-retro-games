@@ -7,7 +7,7 @@ Funcionalidade: Cadastro de produtos
 
     Cenario: Cadastro de novo produto
         Dado que eu tenho um produto com os seguintes atributos:
-            | nome       | River Raid                                                                   |
+            | nome       | River Raid Jogo muito legal                                                  |
             | descricao  | O pai dos Vertical Shooter (jogos de tiro onde o jogador anda verticalmente) |
             | preco      | 59.90                                                                        |
             | quantidade | 20                                                                           |
@@ -26,10 +26,10 @@ Funcionalidade: Cadastro de produtos
         Quando faço o cadastro desse produto
         Então vejo a mensagem "Nome já está em uso"
 
-    Cenario: Nome com menos de 10 caracteres
+    Cenario: Nome com menos de 15 caracteres
 
         Dado que eu tenho um produto com os seguintes atributos:
-            | nome       | Pac Man                                              |
+            | nome       | Pac Man Jogo                                         |
             | descricao  | O mais famoso personagem do mais famoso jogo criado. |
             | preco      | 29.99                                                |
             | quantidade | 10                                                   |
@@ -39,7 +39,7 @@ Funcionalidade: Cadastro de produtos
     Cenario: Preço em branco
 
         Dado que eu tenho um produto com os seguintes atributos:
-            | nome       | Asteroids 2                                            |
+            | nome       | Asteroids 2 versão extendida                           |
             | descricao  | Controle uma nave em meio às grandes rochas espaciais. |
             | preco      |                                                        |
             | quantidade | 10                                                     |
@@ -50,7 +50,7 @@ Funcionalidade: Cadastro de produtos
     Cenario: Quantidade em branco
 
         Dado que eu tenho um produto com os seguintes atributos:
-            | nome       | Pole Position                                     |
+            | nome       | Pole Position Jogo de carro                       |
             | descricao  | O game possui jogabilidade e gráficos muito bons. |
             | preco      | 29.99                                             |
             | quantidade |                                                   |
