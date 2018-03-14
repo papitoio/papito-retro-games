@@ -8,7 +8,7 @@ Funcionalidade: Remover produto
     @delete
     Cenario: Remover um produto cadastrado
 
-        Dado que eu desejo apagar o produto "Donkey Kong"
+        Dado que eu desejo apagar o produto "Donkey Kong Jogo muito legal"
         Quando faço o exclusão desse produto
         E confirmo a exclusão
         Então vejo a mensagem "Produto removido com sucesso."
