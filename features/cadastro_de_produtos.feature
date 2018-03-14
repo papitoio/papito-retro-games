@@ -34,7 +34,7 @@ Funcionalidade: Cadastro de produtos
             | preco      | 29.99                                                |
             | quantidade | 10                                                   |
         Quando faço o cadastro desse produto
-        Então vejo a mensagem "Nome é muito curto (mínimo: 10 caracteres)"
+        Então vejo a mensagem "Nome é muito curto (mínimo: 15 caracteres)"
 
     Cenario: Preço em branco
 
