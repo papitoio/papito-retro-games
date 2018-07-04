@@ -1,14 +1,9 @@
 pipeline {
-    agent { docker { 
-            image 'ruby' 
-            args '-p 3000:3000'
-         }
-        }
+    agent { dockerfile true }
     stages {
         stage('build') {
             steps {
-                sh 'bundler install'
-                sh 'rails s'
+                sh 'ruby -v'
             }
         }
     }
